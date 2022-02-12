@@ -1590,3 +1590,8 @@ a.linkedin-bg:hover {
   height: 500px;
   width: 100%
 }
+
+/* alignes copyright tag in footer */
+.col-xs-4 {
+  float: right
+}
