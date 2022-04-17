@@ -779,7 +779,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/hero.jpg) no-repeat center / cover; 
+    background: url(../img/profile-train.jpeg) no-repeat center / cover; 
     height: 100%;
     width: 100%;
     display: table;
@@ -874,15 +874,15 @@ html, body {
 }
 
 .portfolio-hero {
-    background: url(../img/portfolio-hero.jpg) no-repeat center / cover;     
+    background: url(../img/camping_pics/IMG_5253.JPG) no-repeat center / cover;     
 }
 
 .blog-hero {
-    background: url(../img/blog-hero.jpg) no-repeat center / cover;     
+    background: url(../img/camping_pics/IMG_5433.JPG) no-repeat center / cover;     
 }
 
 .contact-hero {
-    background: url(../img/contact-hero.jpg) no-repeat center / cover;     
+    background: url(../img/camping_pics/IMG_5318.JPG) no-repeat center / cover;     
 }
 
 /* SITEMAIN
