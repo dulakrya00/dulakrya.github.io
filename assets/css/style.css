@@ -878,7 +878,7 @@ html, body {
 }
 
 .blog-hero {
-    background: url(../img/camping_pics/IMG_5433.JPG) no-repeat center / cover;     
+    background: url(../img/spartanlogo.jpg) no-repeat center / cover;     
 }
 
 .contact-hero {
@@ -1623,7 +1623,7 @@ a.linkedin-bg:hover {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: rgb(183, 154, 154);
+  background-color: white;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -1635,6 +1635,16 @@ a.linkedin-bg:hover {
 
 .slideshowNav {
   text-align: center;
+}s
+
+.gallery-container {
+  /* width: 100%; */
+  padding-bottom: 100px;
 }
 
-
+.pic {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 15px;
+}

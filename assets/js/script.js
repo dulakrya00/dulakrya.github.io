@@ -204,16 +204,18 @@ if($('#map').length >0 ) {
 
 // home page
 
-// slideshow
+// slideshow code is inspired from https://www.w3schools.com/howto/howto_js_slideshow.asp
 
 let slideIndex = 1;
 showSlides(slideIndex);
 
-function nextSlide(n) {
+// Next/previous controls
+function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-function prevSlide(n) {
+// Thumbnail image controls
+function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
@@ -231,4 +233,15 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
+}
+
+const inputName = document.getElementsById('name')
+const inputMail = document.getElementsByID('emailAddress')
+const inputSubect = document.getElementById('subject')
+const inputMessage = document.getElementsByClassName('message')
+const inputButton = document.getElementById('contactButton')
+
+function mailfunction () {
+  const link = 'mailto:ryandulak5@gmail.com$subject='+inputSubect+'&body='+inputMessage;
+  window.location.href = link
 }
